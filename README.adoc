@@ -1,3 +1,5 @@
 = Create IAM policies with Terraform for Avi Controller
 
 The policy are based from the Avi KB web site and creates all of them.
+
+NOTE: you may have to adjust a little but it creates the role and policies, as well as the user. 
