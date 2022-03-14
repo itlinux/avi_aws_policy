@@ -13,6 +13,9 @@ variable "department" {
 variable "owner" {
   default = "Remo Mattei"
 }
+variable "new_user" {
+  default = "myavi_iam_user"
+}
 variable "git_raw_url_vmimport" {
   default = "https://raw.githubusercontent.com/avinetworks/devops/master/aws/iam-policies/vmimport-role-policy.json"
 }

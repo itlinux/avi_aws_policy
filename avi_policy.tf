@@ -3,7 +3,7 @@ locals {
 }
 
 resource "aws_iam_user" "new_user" {
-  name = "remo-tf-demo-iam"
+  name = var.new_user
 }
 
 resource "aws_s3_bucket" "bucket" {
