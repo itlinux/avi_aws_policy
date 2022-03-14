@@ -10,9 +10,9 @@ resource "aws_s3_bucket" "bucket" {
   bucket = "${local.avi_prefix}-bucket-tfdemo"
 
   tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-    owner       = "Remo Mattei"
+    Name        = var.bucket_name
+    Environment = var.department
+    owner       = var.owner
   }
 }
 
