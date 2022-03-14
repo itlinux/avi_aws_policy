@@ -1,0 +1,3 @@
+= Create IAM policies with Terraform for Avi Controller
+
+The policy are based from the Avi KB web site and creates all of them.
