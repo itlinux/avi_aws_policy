@@ -40,8 +40,6 @@ variable "git_raw_url_avicontroller_asg" {
 variable "git_raw_url_avicontroller_sqs" {
   default = "https://raw.githubusercontent.com/avinetworks/devops/master/aws/iam-policies/avicontroller-sqs-sns-policy.json"
 }
-
 variable "git_raw_url_avicontroller_iam" {
-  default = "https://raw.githubusercontent.com/avinetworks/devops/master/aws/iam-policies/avicontroller-iam-policy.json"
-  
+  default = "https://raw.githubusercontent.com/avinetworks/devops/master/aws/iam-policies/avicontroller-iam-policy.json" 
 }
